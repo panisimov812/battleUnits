@@ -13,4 +13,8 @@ public class Knight extends BattleUnit {
     public Knight(int healthScore, int attackScore) {
         super(healthScore, attackScore);
     }
+
+    public void knightVoid() {
+        System.out.println("Метод knightVoid");
+    }
 }
